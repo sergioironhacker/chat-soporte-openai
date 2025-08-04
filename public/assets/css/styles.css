@@ -3,8 +3,8 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #d8e9eb;
+    font-family: Helvetica, sans-serif, Arial;
+    background-color: #15202b;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,19 +23,19 @@ body {
 .header__title {
     font-size: 3rem;
     font-weight: bold;
-    color: rgb(10, 125, 226);
+    color: #ccc;
     text-align: center;
     margin-bottom: 2rem;
 }
 
 .header__icon {
-    height: 6rem;
-    margin-top: 1.5rem;
+    height: 5.5rem;
+    margin-top: 0.5rem;
 }
 
 .chat {
-    width: 50rem;
-    background-color: aliceblue;
+    width: 60rem;
+    background-color: #30475d;
     border-radius: 1rem;
     box-shadow: 0 0.5px 5px rgba(0,0,0,0.1);
     padding: 2rem;
@@ -48,7 +48,7 @@ body {
     overflow-y: auto;
     padding: 1rem;
     border-radius: 0.8rem;
-    background-color: rgb(181, 213, 231);
+    background-color: #4f779c;
     box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
@@ -85,7 +85,7 @@ body {
 
 .chat__input-group {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
     margin-top: 1rem;
 }
@@ -105,26 +105,22 @@ body {
     box-shadow: 0px 0px 5px blanchedalmond;
 }
 
-.chat__inputs {
-    display: flex;
-    gap: 1rem;
-}
 
-.chat__select,
+
+
 .chat__button {
     font-size: 1.6rem;
     padding: 1rem;
     border-radius: 5px;
     border: 1px solid #ccc;
+   
 }
 
-.chat__select {
-    flex: 2;
-}
+
 
 .chat__button {
     flex: 1;
-    background-color: rgb(117, 180, 252);
+    background-color: #1da1f2;
     cursor: pointer;
     border: none;
     color: white;
@@ -133,5 +129,5 @@ body {
 }
 
 .chat__button:hover {
-    background-color: rgb(60, 145, 241);
+    background-color: rgb(37, 113, 201);
 }

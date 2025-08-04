@@ -20,6 +20,28 @@ const openai = new OpenAI({
 
 // ruta 
 
+app.post("/api/chatbot", async (req, res) => {
+
+  const contexto = ` Eres un asistente para un supermercado.
+  informacion del negocio:
+  - Ubicación: Calle desconocida numero 0 . Segovia
+  - Horario: Lunes a Sabado de 8:00 a 20:00, domingos de 9:00 a 14:00
+  - Productos: Pan , Leche , Huevos , Verduras , Carnes y bebidas
+  - Marcas: Paculas , Asturiana , Fanta , pepsi
+  - Metodos de pago: Efectivo, Tarjeta y Bizum
+
+  Solo puedes responder preguntas sobre el negocio, cualquier otra pregunta está prohibida.
+  `;
+
+
+  // recibit pregunta del usuario 
+
+
+
+  // peticion al modelo de ia 
+  
+});
+
 
 
 app.listen(PORT, () => {
